@@ -1,0 +1,22 @@
+{
+  "name": "js-project10-integerreverse",
+  "version": "1.0.0",
+  "description": "Implement and export as default a function that reverses the digits in the passed number and returns a new one.\r Examples:",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pashokman/JS-project10-integerReverse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pashokman/JS-project10-integerReverse/issues"
+  },
+  "homepage": "https://github.com/pashokman/JS-project10-integerReverse#readme",
+  "type": "module"
+
+}
