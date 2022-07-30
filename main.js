@@ -10,12 +10,14 @@ const reverse = (number) => {
         }
     }
 
-    return Math.abs(result);
+    if (str[0] === '-') return `-${result}`;
+    
+    return String(Math.abs(result));
 
 }
 
 export default reverse;
 
-console.log(reverse(13));
-console.log(reverse(-123));
-console.log(reverse(8900));
+console.log(reverse(13));   //31
+console.log(reverse(-123)); //-321
+console.log(reverse(8900)); //98
